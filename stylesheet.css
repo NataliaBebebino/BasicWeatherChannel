@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(42, 42, 83);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+}
+
+.btn-request {
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-request:hover {
+    opacity: 0.9;
+}
+
+.container {
+    visibility: hidden;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    background: rgb(223, 201, 201);
+    text-align: left;
+    font-weight: 700;
+    color: rgb(23, 84, 207);
+
+}
+
+#weather-description {
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+#city-temperature {
+    color: rgb(17, 17, 109);
+    font-size: 35px;
+}
+
+#celsius {
+    color: rgb(17, 17, 109);
+    font-size: 25px;
+}

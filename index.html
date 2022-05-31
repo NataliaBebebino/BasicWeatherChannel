@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Weather channel</title>
+</head>
+<body>
+
+    <h1>Weather channel</h1>
+
+    <div class="input-div">
+        <input type="text" class="input" placeholder="Enter a city">
+        <button class="btn-request">Request</button>
+    </div>
+
+    <div class="container">
+        <span id="city-name"></span> 
+        <br>
+        <br>
+        <span id="city-temperature"></span><span id="celsius"><sup>°C</sup></span>
+        <br>
+        <br>
+        <img id="weather-icon" src="" alt="Weather icon">
+        <br>
+        <br>
+        <span id="weather-description"></span> 
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="functionality.js"></script>
+</body>
+</html>
